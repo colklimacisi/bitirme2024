@@ -1,0 +1,21 @@
+https://www.kaggle.com/datasets/atulanandjha/lfwpeople 
+veri seti
+https://drive.google.com/drive/folders/0B7EVK8r0v71pQ3NzdzRhVUhSams?resourcekey=0-Kpdd6Vctf-AdJYfS55VULA
+daha gelişmiş veri seti
+
+yapılması gereken şeylerden birisi model eğitiminde data agumentation ve diğer yöntemlerin kıyaslanması çeşitli bulgular vb olmalı
+
+haar cascade yüzleri kesip preprosessing yapma konusunda kullanışlı olabilir
+
+
+heatmap ile çıktıyı görselleştirmek iyi fikir
+
+Data Science & Machine Learning Project:data labelleme (dosya içlerini teker teker dönme)ve hesatmap çıktı görselleri ----- multiclass için dictionary oluşturdu
+https://thinkingneuron.com/face-recognition-using-deep-learning-cnn-in-python/  data labelleme (maps ve key kompenontlerinden yararlanıp liste hale getirme ve kaydetme dosya olarak)
+Build a Deep Facial Recognition App : CNN Model,Data agumentation(?)
+
+model neye göre kuruluyor ve katmanlanıyor açıklanmalı(cgg-16 tarzı şeyler örneklendirilenbilir)
+en az 10 metin incelenip sonuçlar toparlanmalı(2.bölüm literatür) 6 dosyalı bir eğitim ağı ile multiclasss classification iyi bir fikir olabilir.
+koddaki jupyterdeki fazlalıkları kaldırmak iyi bir seçenek data agumentation eklemekte öyle
+poster 
+tasarım bitirmeside yapılacak

@@ -1,0 +1,18 @@
+./archive (2)/lfw/www.google.com/Abbas Kiarostami - Google-da Ara - 17-12-2024 06-00-51\ççbb.jpg
+---------------------------------------------------------------------------
+error                                     Traceback (most recent call last)
+Cell In[38], line 14
+     12 for entry in os.scandir(img_dir):
+     13     print(entry.path)
+---> 14     roi_color = get_cropped_image_if_2_eyes(entry.path)
+     15     if roi_color is not None:
+     16         cropped_folder = path_to_cr_data + celebrity_name
+
+Cell In[36], line 6, in get_cropped_image_if_2_eyes(image_path)
+      4 def get_cropped_image_if_2_eyes(image_path):
+      5     img = cv2.imread(image_path)
+----> 6     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+      7     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+      8     for (x,y,w,h) in faces:
+
+error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:196: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'

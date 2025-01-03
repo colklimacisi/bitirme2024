@@ -1,0 +1,21 @@
+///giriş bölümü için ekleme
+Çalışmanın 2. Kısmında sistemin nasıl kurgulandığı
+verilmiş olup, elde edilen sonuçlar 3. Kısım olan
+Bulgularda gösterilmiştir. 4. Kısımda ise sonuçlar farklı
+açılardan yorumlanmış ve sistemin ne oranda
+kullanılabilir olacağına dair değerlendirmeler yapılmıştır.
+//özet kısmı için düşünülebilir
+Bu çalışmada yaygınlaşan uygulamalardan biri olan okullarda yoklama sistemi için veri çoğaltma ve derin sinir ağı
+modelinin seçimi yapılmıştır. Bir görüntü içerisindeki nesneleri belirleme ve tanıma alanında yüksek başarı
+gösterdiği için derin sinir ağı çeşidi olan Evrişimli Sinir Ağları yüz tanıma işleminde ön plana çıkmaktadır [2].
+Evrişimli Sinir Ağları (CNN'ler), bilgisayarlı görme görevlerinde son derece başarılı bir performans sergileyen ve
+geniş çapta kullanılan bir sinir ağı tipidir [3]. Yüksek başarısından dolayı bu çalışmada Evrişimli Sinir Ağı modelleri
+kullanılmıştır.
+/////////birçok eksik başlık şunları açıkladık şeklinde doldurulabilir
+Yöntem bölümünde çalışmanın geliştirilme aşamasında takip edilmiş adımlar verilmiştir. Bu adımlarda sırasıyla
+veri kümesi oluşturma, Evrişimli Sinir Ağları, veri çoğaltma ve Evrişimli Sinir Ağları Modellerinin Eğitilmesi
+anlatılmıştır.
+////veri kümesi oluşturma işi daha detaylı açıklanabilir
+//manuel el ile oluşturulmuş ve oluşturulmamış görüntülerin şekili projeye eklenmeli
+
+///tensorflowla yaptığımız kendi ağımızın tablo bilgsini eklemeyliliz model.summary()
